@@ -1,0 +1,55 @@
+@import '../Variantes';
+
+.section {
+    min-width: 1280px;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    // padding-left: 168px;
+}
+
+h3{
+    color: $color-primaria;
+}
+
+.efeito{
+    background-color: $color-background;
+    height: 490px;
+    width: 625px;
+}
+
+.div_efeito{
+    margin-top: 32px;
+    padding-left: 232px;
+
+}
+
+.bio_image{
+    margin-top: 32px;
+    margin-left: 168px;
+    width: 490px;
+    height: 490px;
+}
+
+div.margin{
+    margin-top: 36px;
+    margin-left: 97px;
+    max-width: 461px;
+}
+
+.margin p {
+    color: $color-texto;
+}
+
+div button.color_button{
+    background-color: $color-primaria;
+    border: none;
+    font-size: 18px;
+    width: 241px;
+    height: 48px;
+}
+
+div button.color_button:hover{
+    background-color: $color-hover-botao-2;
+    // color: $color-texto;
+    
+}

@@ -1,0 +1,38 @@
+@import "../Variantes";
+
+.footer {
+  background-color: $color-primaria;
+   width: 1280px;
+  height: 289px;
+}
+
+.footer p, span{
+    font-size: 12px;
+
+}
+
+.w-img{
+  width: 46%;
+}
+
+
+.gap{
+  margin-right: 8.5px
+}
+
+.calendario p{
+    margin: 0;
+}
+
+
+.circle {
+  background-color: white;
+  min-width: 20.5px;
+  height:20.5px;
+  border-radius: 75%;
+  margin: 0;
+  padding: 4px;
+  
+  
+  
+}

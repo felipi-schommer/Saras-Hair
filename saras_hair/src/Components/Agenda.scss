@@ -1,0 +1,77 @@
+@import '../Variantes';
+
+div.agenda{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    margin-bottom: 64px;
+    
+}
+
+.borda{
+    border-right: solid 1px #707070;
+}
+
+.space{
+    // margin: 64px 0 90px 0;
+    margin-left: 140px;
+    margin-top: 64px;
+    margin-bottom: 90px;
+}
+
+.bg-agenda{
+    width: 640px;
+    height: 460px;
+    background-color: $color-bg-agenda;
+}
+
+div button.bt-agenda {
+    width: 248px;
+    height: 68px;
+    text-align: left;
+    padding: 0;
+    padding-left: 32px;
+    background-color: transparent;
+    border-color: $color-secundaria;
+}
+
+div button.bt-agenda:hover{
+    border: none;
+    border-color: unset;
+    background-color: $color-secundaria;
+}
+
+div button.bt-agenda:active :focus{
+    border-color: unset;
+    box-shadow: none;
+    background-color: $color-secundaria;
+}
+div button.bt-agenda:focus{
+    border: none;
+    border-color: unset;
+    box-shadow: none;
+}
+
+div.btn-check:focus :active{
+    border: none;
+    border-color: unset;
+    box-shadow: none;
+}
+div.btn-check:active{
+    border: none;
+    border-color: unset;
+    box-shadow: none;
+}
+
+div button.bt-agenda p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    // margin-top: 5h3x;
+}
+div button.bt-agenda span{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+@import '../Variantes';
+
+div.container{
+    width: 1280px;
+}
+
+.services{
+    background-color: $color-background
+}
+
+// div.serv_text{
+//     border-bottom: 2px $color-primaria;
+// }
+
+div.btn_menu{
+
+    button{
+        color: $color-primaria;
+        font-size: 12px;
+        background-color: transparent;
+        border: none;
+        border-color: none;
+    }
+    button:hover{
+        background-color: $color-primaria;
+        color: #ffffff;
+    }
+    div button:active, :focus{
+        background-color: transparent;
+        border: solid 2px $color-primaria;
+        color: $color-primaria;
+        box-shadow: none;
+    }
+}
+
+div.serv_btn{
+    height: 48px;
+     font-size: 18px;
+
+     button{
+         border: none;
+         border-color: unset;
+         background-color: $color-primaria;
+         font-weight: bold;
+         width: 261px;
+     }
+
+     :hover{
+         background-color: $color-hover-botao-2;
+     }
+ }

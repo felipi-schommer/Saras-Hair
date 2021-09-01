@@ -1,0 +1,79 @@
+@import '../Variantes';
+
+div.container{
+    min-width: 1280px;
+}
+
+.blog{
+     padding-top: 64px;
+     padding-bottom: 64px;
+ }
+
+ div.blog_text{
+     max-width: 747px;
+ }
+
+.blog_border{
+     border-bottom: solid 2px $color-primaria;
+     width: 84px !important;
+     justify-content: center;
+
+ }
+
+ div.blog_text_card{
+    width: 228.5px;
+    box-shadow:  0 0 6px rgba(106, 106, 106, 0.15);
+    opacity: 1;
+    
+ }
+
+ div.blog_text_card:hover{
+     color: #ffffff;
+     background-color: $color-secundaria;
+
+     h6,p, a{
+         color: #ffffff;
+     }
+
+     
+ }
+ .blog_text_card h6{
+     color: $color-primaria;
+     
+ }
+ .blog_text_card p{
+     color: $color-texto;
+     font-size: 12px;
+ }
+
+ div.blog_text_card a{
+     font-size: 12px;
+     color: $color-primaria;
+     text-decoration: none;
+
+ }
+
+ div.blog_card{
+     max-width: 914px;
+ }
+
+ .blog_card_size{
+     width: 457px;
+ }
+
+ div.blog_btn{
+        
+     font-size: 18px;
+
+     button{
+         border: none;
+         border-color: unset;
+         background-color: $color-primaria;
+         font-weight: bold;
+         width: 261px;
+     }
+
+     :hover{
+         background-color: $color-hover-botao-2;
+     }
+ }
